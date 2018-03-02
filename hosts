@@ -1,0 +1,16 @@
+[host1]
+192.168.0.105
+
+[host2]
+192.168.0.106
+
+[optimus:children]
+host1
+host2
+
+[optimus:var]
+ansible_ssh_user=deploy
+ansible_sudo=yes
+
+[prime:children]
+optimus

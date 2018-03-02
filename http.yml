@@ -1,0 +1,15 @@
+---
+- hosts: host1
+  sudo: yes
+  vars: 
+    http_port: 80
+    max_clients: 200
+  remote_user: csadmin
+  tasks:
+  - name: ensure apache is at the latest version
+    yum: name=httpd state=latest
+  - name: ensure apache is running (and enable it at boot)
+    service: name=httpd state=started enabled=yes
+  handlers:
+    - name: restart apache
+      service: name=httpd state=restart
