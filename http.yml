@@ -4,7 +4,7 @@
   vars: 
     http_port: 80
     max_clients: 200
-  remote_user: csadmin
+  remote_user: jenkins
   tasks:
   - name: ensure apache is at the latest version
     yum: name=httpd state=latest
