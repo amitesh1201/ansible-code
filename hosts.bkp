@@ -1,8 +1,12 @@
 [host1]
+192.168.0.105
+
+[host2]
 192.168.0.106
 
 [optimus:children]
 host1
+host2
 
 [prime:children]
 optimus
