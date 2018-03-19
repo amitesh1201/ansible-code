@@ -11,7 +11,7 @@
   - name: ensure apache is running (and enable it at boot)
     service: name=httpd state=started enabled=yes
   - copy:
-     src: /Users/swapnil/ansible-code
+     src: /Users/swapnil/ansible-code/info.txt
      dest: /etc/httpd
      owner: root
      group: root
