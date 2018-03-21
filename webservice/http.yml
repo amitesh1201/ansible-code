@@ -84,6 +84,6 @@
       msg: "Symlink created /etc/httpd/sites-enabled/coolexample.com.conf"
   #handlers:
   - name: restart apache
-    service: name=httpd state=restart
+    service: name=httpd state=restarted
   - debug:
        msg: "Service restarted."
