@@ -36,7 +36,7 @@
       msg: "Directory created /etc/httpd/sites-enabled"
   - file:
      path: /var/www/coolexample.com/error.log
-     state: file
+     state: touch
      owner: apache
      group: apache
      mode:  0755
