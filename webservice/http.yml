@@ -16,54 +16,72 @@
      owner: apache
      group: apache
      mode:  0755
+  - debug:
+      msg: "Directory created /var/www/coolexample.com/public_html"
   - file:
      path: /etc/httpd/sites-available
      state: directory
      owner: apache
      group: apache
      mode:  0755
+  - debug:
+      msg: "Directory created /etc/httpd/sites-available"
   - file:
      path: /etc/httpd/sites-enabled
      state: directory
      owner: apache
      group: apache
      mode:  0755
+  - debug:
+      msg: "Directory created /etc/httpd/sites-enabled"
   - file:
-     path: /var/www/coolexample.com/
+     path: /var/www/coolexample.com/error.log
      state: file
      owner: apache
      group: apache
      mode:  0755
+  - debug:
+      msg: "File created /var/www/coolexample.com/error.log"
   - copy:
      src: /Users/swapnil/ansible-code/webservice/info.txt
      dest: /etc/httpd
      owner: apache
      group: apache
      mode:  0755
+  - debug:
+      msg: "File copied /etc/httpd/info.txt"
   - copy:
      src: /Users/swapnil/ansible-code/webservice/scripts/coolexample.conf
      dest: /etc/httpd/sites-available/
      owner: apache
      group: apache
      mode:  0755
+  - debug:
+      msg: "File copied /etc/httpd/sites-available/coolexample.conf"
   - copy:
      src: /Users/swapnil/ansible-code/webservice/scripts/httpd.conf
      dest: /etc/httpd/conf
      owner: apache
      group: apache
      mode:  0755
+  - debug:
+      msg: "File copied /etc/httpd/conf/httpd.conf"
   - copy:
      src: /Users/swapnil/ansible-code/webservice/files/index.html
      dest: /var/www/coolexample.com/public_html
      owner: apache
      group: apache
      mode:  0755
+  - debug:
+      msg: "File copied /var/www/coolexample.com/public_html/index.html"
   - file:
      src: /etc/httpd/sites-available/coolexample.com.conf
      dest: /etc/httpd/sites-enabled/coolexample.com.conf
      owner: apache
      group: apache
      state: link
+  - debug:
+      msg: "Symlink created /etc/httpd/sites-enabled/coolexample.com.conf"
   handlers:
     - name: restart apache
       service: name=httpd state=restart
