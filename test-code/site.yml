@@ -10,4 +10,4 @@
       group: root
       mode: 0644
    - debug:
-       meg: "Directorires created."
+       msg: "Directorires created."
