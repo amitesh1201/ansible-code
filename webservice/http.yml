@@ -19,25 +19,25 @@
        mode: 0755
 
   - copy:
-     src: /Users/swapnil/ansible-code/info.txt
+     src: /Users/swapnil/ansible-code/webservice/info.txt
      dest: /etc/httpd
      owner: apache
      group: apache
      mode:  0755
   - copy:
-     src: /Users/swapnil/ansible-code/scripts/coolexample.conf
+     src: /Users/swapnil/ansible-code/webservice/scripts/coolexample.conf
      dest: /etc/httpd/sites-available/
      owner: apache
      group: apache
      mode:  0755
   - copy:
-     src: /Users/swapnil/ansible-code/scripts/httpd.conf
+     src: /Users/swapnil/ansible-code/webservice/scripts/httpd.conf
      dest: /etc/httpd/conf
      owner: apache
      group: apache
      mode:  0755
   - copy:
-     src: /Users/swapnil/ansible-code/files/index.html
+     src: /Users/swapnil/ansible-code/webservice/files/index.html
      dest: /var/www/coolexample.com/public_html
      owner: apache
      group: apache
