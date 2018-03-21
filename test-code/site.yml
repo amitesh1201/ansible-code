@@ -9,3 +9,5 @@
       owner: root
       group: root
       mode: 0644
+   - debug:
+       meg: "Directorires created."
