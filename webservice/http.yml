@@ -85,5 +85,5 @@
   handlers:
     - name: restart apache
       service: name=httpd state=restart
-  - debug:
-      msg: "Service restarted."
+    - debug:
+       msg: "Service restarted."
