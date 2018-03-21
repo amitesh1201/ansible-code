@@ -1,0 +1,10 @@
+---
+- hosts: host1
+  sudo: yes
+  - name: Create directory
+     file:
+       path /etc/one/two
+       state: directory
+       owner: root
+       group: root
+       mode: 0644
