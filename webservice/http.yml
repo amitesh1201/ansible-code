@@ -51,7 +51,7 @@
   - debug:
       msg: "File copied /etc/httpd/info.txt"
   - copy:
-     src: /Users/swapnil/ansible-code/webservice/scripts/coolexample.conf
+     src: /Users/swapnil/ansible-code/webservice/scripts/coolexample.com.conf
      dest: /etc/httpd/sites-available/
      owner: apache
      group: apache
