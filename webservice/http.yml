@@ -10,14 +10,30 @@
     yum: name=httpd state=latest
   - name: ensure apache is running (and enable it at boot)
     service: name=httpd state=started enabled=yes
-  - name: Creates directory
-     file:
-       path: /var/www/coolexample.com/public_html
-       state: directory
-       owner: apache
-       group: apache
-       mode: 0755
-
+  - file:
+     path: /var/www/coolexample.com/public_html
+     state: directory
+     owner: apache
+     group: apache
+     mode:  0755
+  - file:
+     path: /etc/httpd/sites-available
+     state: directory
+     owner: apache
+     group: apache
+     mode:  0755
+  - file:
+     path: /etc/httpd/sites-enabled
+     state: directory
+     owner: apache
+     group: apache
+     mode:  0755
+  - file:
+     path: /var/www/coolexample.com/
+     state: file
+     owner: apache
+     group: apache
+     mode:  0755
   - copy:
      src: /Users/swapnil/ansible-code/webservice/info.txt
      dest: /etc/httpd
@@ -42,6 +58,12 @@
      owner: apache
      group: apache
      mode:  0755
+  - file:
+     src: /etc/httpd/sites-available/coolexample.com.conf
+     dest: /etc/httpd/sites-enabled/coolexample.com.conf
+     owner: apache
+     group: apache
+     state: link
   handlers:
     - name: restart apache
       service: name=httpd state=restart
