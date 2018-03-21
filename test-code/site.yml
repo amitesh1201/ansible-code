@@ -2,7 +2,8 @@
 - hosts: host1
   sudo: yes
   remote_user: jenkins
-   - file:
+  tasks:
+    - file:
        path: /etc/one/two
        state: directory
        owner: root
