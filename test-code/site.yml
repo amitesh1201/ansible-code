@@ -1,6 +1,7 @@
 ---
 - hosts: host1
   sudo: yes
+  remote_user: jenkins
   - name: Create directory
      file:
        path: /etc/one/two
