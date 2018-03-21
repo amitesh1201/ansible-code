@@ -13,9 +13,27 @@
   - copy:
      src: /Users/swapnil/ansible-code/info.txt
      dest: /etc/httpd
-     owner: root
-     group: root
-     mode: 0644 	
+     owner: apache
+     group: apache
+     mode:  0755
+  - copy:
+     src: /Users/swapnil/ansible-code/scripts/coolexample.conf
+     dest: /etc/httpd/sites-available/
+     owner: apache
+     group: apache
+     mode:  0755
+  - copy:
+     src: /Users/swapnil/ansible-code/scripts/httpd.conf
+     dest: /etc/httpd/conf
+     owner: apache
+     group: apache
+     mode:  0755
+  - copy:
+     src: /Users/swapnil/ansible-code/files/index.html
+     dest: /var/www/coolexample.com/public_html
+     owner: apache
+     group: apache
+     mode:  0755
   handlers:
     - name: restart apache
       service: name=httpd state=restart
