@@ -4,9 +4,9 @@
   remote_user: jenkins
   tasks:
     - name: Create directory
-       file:
-        path: /etc/one/two
-        state: directory
-        owner: root
-        group: root
-        mode: 0644
+       - file:
+           path: /etc/one/two
+           state: directory
+           owner: root
+           group: root
+           mode: 0644
