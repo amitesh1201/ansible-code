@@ -72,7 +72,6 @@
      owner: apache
      group: apache
      mode:  0755
-     force: no
   - debug:
       msg: "File copied /var/www/coolexample.com/public_html/index.html"
   - file:
