@@ -8,14 +8,14 @@
       state: directory
       owner: root
       group: root
-      mode: 0644
+      mode: 0755
    - debug:
-       msg: "Directorires created."
+      msg: "Directorires created."
    - file:
-     path: /tmp/one/two/smaple.txt
-     state: touch
-     owner: root
-     group: root
-     mode:  0755
+      path: /tmp/one/two/smaple.txt
+      state: touch
+      owner: root
+      group: root
+      mode:  0644
   - debug:
       msg: "File created /etc/one/two/smaple.txt"
