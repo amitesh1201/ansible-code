@@ -1,0 +1,21 @@
+---
+- hosts: host1
+  sudo: yes
+  remote_user: jenkins
+  tasks:
+   - file:
+      path: /tmp/one/two
+      state: directory
+      owner: root
+      group: root
+      mode: 0644
+   - debug:
+       msg: "Directorires created."
+   - file:
+     path: /etc/one/two/smaple.txt
+     state: touch
+     owner: root
+     group: root
+     mode:  0755
+  - debug:
+      msg: "File created /etc/one/two/smaple.txt"

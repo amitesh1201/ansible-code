@@ -1,0 +1,8 @@
+[host1]
+192.168.0.106
+
+[optimus:children]
+host1
+
+[prime:children]
+optimus
