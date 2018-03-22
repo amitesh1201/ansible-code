@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="f6156f1e-ed90-4709-bb4e-7b6a37afe187" name="Default" comment="" />
+=======
+    <list default="true" id="9e1455bf-897c-4c0f-bdd2-35f16d59a557" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+>>>>>>> develop
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,11 +15,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file leaf-file-name="http.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/webservice/http.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="429">
               <caret line="43" column="60" lean-forward="false" selection-start-line="36" selection-start-column="2" selection-end-line="43" selection-end-column="60" />
+=======
+      <file leaf-file-name="http.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/webservice/http.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="83" column="74" lean-forward="true" selection-start-line="76" selection-start-column="1" selection-end-line="83" selection-end-column="74" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="site.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ansible_small_examples/create_dir_file/site.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="27" column="3" lean-forward="false" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+>>>>>>> develop
               <folding />
             </state>
           </provider>
@@ -182,6 +205,12 @@
     <entry file="file://$PROJECT_DIR$/webservice/hosts" />
     <entry file="file://$PROJECT_DIR$/webservice/files/index.html" />
     <entry file="file://$PROJECT_DIR$/webservice/http.yml" />
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/test-code/site.yml" />
+    <entry file="file://$PROJECT_DIR$/webservice/hosts" />
+    <entry file="file://$PROJECT_DIR$/ansible_small_examples/site.yml" />
+>>>>>>> develop
     <entry file="file://$PROJECT_DIR$/hosts" />
     <entry file="file://$PROJECT_DIR$/files/index.html" />
     <entry file="file://$PROJECT_DIR$/scripts/httpd.conf" />
@@ -210,10 +239,33 @@
     <entry file="file://$PROJECT_DIR$/webservice/http.yml" />
     <entry file="file://$PROJECT_DIR$/test-code/site.yml" />
     <entry file="file://$PROJECT_DIR$/webservice/hosts" />
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/ansible_small_examples/site.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/ansible_small_examples/create_dir_file/hosts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/webservice/http.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="83" column="74" lean-forward="true" selection-start-line="76" selection-start-column="1" selection-end-line="83" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansible_small_examples/create_dir_file/site.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="27" column="3" lean-forward="false" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+          <folding />
+>>>>>>> develop
         </state>
       </provider>
     </entry>
