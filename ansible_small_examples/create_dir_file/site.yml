@@ -16,7 +16,7 @@
      register: dir_details
    - debug:
       msg: "The file exists"
-    when: fir_details.stat.exists and dir_details.stat.isreg
+     when: fir_details.stat.exists and dir_details.stat.isreg
    - stat:
       path: /tmp/one/two/sample.txt
      register: file_details
