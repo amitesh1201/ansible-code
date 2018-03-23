@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e1455bf-897c-4c0f-bdd2-35f16d59a557" name="Default" comment="" />
+    <list default="true" id="9e1455bf-897c-4c0f-bdd2-35f16d59a557" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible_small_examples/edit_file/hosts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible_small_examples/edit_file/site.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +25,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="site.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="site.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ansible_small_examples/create_dir_file/site.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="25" column="107" lean-forward="false" selection-start-line="25" selection-start-column="107" selection-end-line="25" selection-end-column="107" />
+            <state relative-caret-position="375">
+              <caret line="25" column="54" lean-forward="false" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hosts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ansible_small_examples/create_dir_file/hosts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hosts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ansible_small_examples/edit_file/hosts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="site.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ansible_small_examples/edit_file/site.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -49,6 +83,8 @@
         <option value="$PROJECT_DIR$/webservice/http.yml" />
         <option value="$PROJECT_DIR$/webservice/files/index.html" />
         <option value="$PROJECT_DIR$/ansible_small_examples/create_dir_file/site.yml" />
+        <option value="$PROJECT_DIR$/ansible_small_examples/edit_file/hosts" />
+        <option value="$PROJECT_DIR$/ansible_small_examples/edit_file/site.yml" />
       </list>
     </option>
   </component>
@@ -90,6 +126,12 @@
               <item name="ansible-code" type="462c0819:PsiDirectoryNode" />
               <item name="ansible_small_examples" type="462c0819:PsiDirectoryNode" />
               <item name="create_dir_file" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ansible-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ansible-code" type="462c0819:PsiDirectoryNode" />
+              <item name="ansible_small_examples" type="462c0819:PsiDirectoryNode" />
+              <item name="edit_file" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -136,6 +178,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2539342" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -144,7 +187,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44256347" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44256347" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -191,8 +234,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webservice/files/index.html" />
-    <entry file="file://$PROJECT_DIR$/webservice/http.yml" />
     <entry file="file://$PROJECT_DIR$/hosts" />
     <entry file="file://$PROJECT_DIR$/files/index.html" />
     <entry file="file://$PROJECT_DIR$/scripts/httpd.conf" />
@@ -239,13 +280,6 @@
     <entry file="file://$PROJECT_DIR$/webservice/http.yml" />
     <entry file="file://$PROJECT_DIR$/test-code/site.yml" />
     <entry file="file://$PROJECT_DIR$/webservice/hosts" />
-    <entry file="file://$PROJECT_DIR$/ansible_small_examples/create_dir_file/hosts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/webservice/http.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1245">
@@ -254,10 +288,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ansible_small_examples/create_dir_file/hosts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansible_small_examples/edit_file/hosts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ansible_small_examples/create_dir_file/site.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="25" column="107" lean-forward="false" selection-start-line="25" selection-start-column="107" selection-end-line="25" selection-end-column="107" />
+        <state relative-caret-position="375">
+          <caret line="25" column="54" lean-forward="false" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansible_small_examples/edit_file/site.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,8 @@
+---
+- host: host1
+  sudo: yes
+  remote_user: jenkins
+  tasks:
+   - lineinfile:
+      path: /etc/hosts
+      line: '192.168.0.106 cooleexample.com'
