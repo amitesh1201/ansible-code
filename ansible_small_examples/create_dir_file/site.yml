@@ -15,13 +15,13 @@
       path: /tmp/one/two
      register: dir_details
    - debug:
-      msg: "The file exists"
+      msg: "The directory exists"
      when: dir_details.stat.exists and dir_details.stat.isreg
    - stat:
       path: /tmp/one/two/sample.txt
      register: file_details
    - debug:
-      msg: "The directory exists"
+      msg: "The file exists"
      when: file_details.stat.exists and file_details.stat.isreg
    - file:
       path: /tmp/one/two/sample.txt
