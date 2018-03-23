@@ -15,7 +15,7 @@
       path: /tmp/one/two/sample.txt
      register: file_details
    - debug:
-      msg: "Path exists and is a directory."
+      msg: "The file or directory exists"
      when: file_details.stat.exists
    - file:
       path: /tmp/one/two/sample.txt
