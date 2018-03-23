@@ -26,8 +26,8 @@
    - debug:
       msg: "File created /etc/one/two/smaple.txt"
    - file:
-      src: /tmp/one/two/smaple.txt
-      dest: /tmp/one/two/smaple_1.txt
+      src: /tmp/one/two/sample.txt
+      dest: /tmp/one/two/sample_1.txt
       owner: root
       group: root
       state: link
