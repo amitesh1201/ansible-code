@@ -18,7 +18,7 @@
       msg: "Path exists and is a directory."
      when: p.stat.isdir is defined and p.stat.isdir
    - file:
-      path: /tmp/one/two/smaple.txt
+      path: /tmp/one/two/sample.txt
       state: touch
       owner: jenkins
       group: jenkins
