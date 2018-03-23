@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e1455bf-897c-4c0f-bdd2-35f16d59a557" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ansible_small_examples/create_dir_file/site.yml" afterPath="$PROJECT_DIR$/ansible_small_examples/create_dir_file/site.yml" />
-    </list>
+    <list default="true" id="9e1455bf-897c-4c0f-bdd2-35f16d59a557" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +24,8 @@
       <file leaf-file-name="site.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ansible_small_examples/create_dir_file/site.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="24" column="63" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="24" selection-end-column="63" />
+            <state relative-caret-position="194">
+              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -259,8 +257,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ansible_small_examples/create_dir_file/site.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="24" column="63" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="24" selection-end-column="63" />
+        <state relative-caret-position="194">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding />
         </state>
       </provider>
