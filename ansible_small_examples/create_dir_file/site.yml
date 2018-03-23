@@ -6,8 +6,8 @@
    - file:
       path: /tmp/one/two
       state: directory
-      owner: root
-      group: root
+      owner: jenkins
+      group: jenkins
       mode: 0755
    - debug:
       msg: "Directorires created."
@@ -20,8 +20,8 @@
    - file:
       path: /tmp/one/two/smaple.txt
       state: touch
-      owner: root
-      group: root
+      owner: jenkins
+      group: jenkins
       mode:  0644
    - debug:
       msg: "File created /etc/one/two/smaple.txt"
