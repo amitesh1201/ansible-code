@@ -12,10 +12,16 @@
    - debug:
       msg: "Directorires created."
    - stat:
+      path: /tmp/one/two
+     register: dir_details
+   - debug:
+      msg: "The file exists"
+    when: fir_details.stat.exists and dir_details.stat.isreg
+   - stat:
       path: /tmp/one/two/sample.txt
      register: file_details
    - debug:
-      msg: "The file or directory exists"
+      msg: "The directory exists"
      when: file_details.stat.exists and file_details.stat.isreg
    - file:
       path: /tmp/one/two/sample.txt
