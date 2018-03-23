@@ -1,5 +1,5 @@
 ---
-- host: host1
+- hosts: host1
   sudo: yes
   remote_user: jenkins
   tasks:
