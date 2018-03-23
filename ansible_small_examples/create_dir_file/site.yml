@@ -11,6 +11,12 @@
       mode: 0755
    - debug:
       msg: "Directorires created."
+   - stat:
+      path: /tmp/one/two
+     register: p
+   - debug:
+      msg: "Path exists and is a directory."
+     when: p.stat.isdir is defined and p.stat.isdir
    - file:
       path: /tmp/one/two/smaple.txt
       state: touch
