@@ -12,7 +12,7 @@
    - debug:
       msg: "Directorires created."
    - stat:
-      path: /tmp/one/two
+      path: /tmp/one/two/three
      register: dir_details
    - debug:
       msg: "The directory exists"
