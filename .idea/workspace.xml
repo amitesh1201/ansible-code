@@ -14,28 +14,38 @@
       <file leaf-file-name="http.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/webservice/http.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1245">
+            <state relative-caret-position="494">
               <caret line="83" column="74" lean-forward="false" selection-start-line="76" selection-start-column="1" selection-end-line="83" selection-end-column="74" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hosts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ansible_small_examples/create_dir_file/hosts">
+      <file leaf-file-name="site.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ansible_small_examples/copy_dir_file/site.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="165">
+              <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="site.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="site.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ansible_small_examples/create_dir_file/site.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="33" column="16" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+            <state relative-caret-position="480">
+              <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="info.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ansible_small_examples/copy_dir_file/info.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -81,6 +91,9 @@
         <option value="$PROJECT_DIR$/ansible_small_examples/edit_file/hosts" />
         <option value="$PROJECT_DIR$/ansible_small_examples/edit_file/site.yml" />
         <option value="$PROJECT_DIR$/ansible_small_examples/create_dir_file/site.yml" />
+        <option value="$PROJECT_DIR$/ansible_small_examples/copy_dir_file/hosts" />
+        <option value="$PROJECT_DIR$/ansible_small_examples/copy_dir_file/info.txt" />
+        <option value="$PROJECT_DIR$/ansible_small_examples/copy_dir_file/site.yml" />
       </list>
     </option>
   </component>
@@ -120,13 +133,7 @@
               <item name="ansible-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="ansible-code" type="462c0819:PsiDirectoryNode" />
               <item name="ansible_small_examples" type="462c0819:PsiDirectoryNode" />
-              <item name="create_dir_file" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ansible-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ansible-code" type="462c0819:PsiDirectoryNode" />
-              <item name="ansible_small_examples" type="462c0819:PsiDirectoryNode" />
-              <item name="edit_file" type="462c0819:PsiDirectoryNode" />
+              <item name="copy_dir_file" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -230,9 +237,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hosts" />
-    <entry file="file://$PROJECT_DIR$/files/index.html" />
-    <entry file="file://$PROJECT_DIR$/scripts/httpd.conf" />
     <entry file="file://$PROJECT_DIR$/scripts/coolexample.com.conf" />
     <entry file="file://$PROJECT_DIR$/http.yml" />
     <entry file="file://$PROJECT_DIR$/webservice/http.yml" />
@@ -276,15 +280,23 @@
     <entry file="file://$PROJECT_DIR$/webservice/http.yml" />
     <entry file="file://$PROJECT_DIR$/test-code/site.yml" />
     <entry file="file://$PROJECT_DIR$/webservice/hosts" />
-    <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/webservice/http.yml">
+    <entry file="file://$PROJECT_DIR$/ansible_small_examples/edit_file/hosts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="83" column="74" lean-forward="false" selection-start-line="76" selection-start-column="1" selection-end-line="83" selection-end-column="74" />
+        <state relative-caret-position="15">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_small_examples/edit_file/hosts">
+    <entry file="file://$PROJECT_DIR$/ansible_small_examples/edit_file/site.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansible_small_examples/copy_dir_file/hosts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
@@ -300,18 +312,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_small_examples/edit_file/site.yml">
+    <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/webservice/http.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        <state relative-caret-position="494">
+          <caret line="83" column="74" lean-forward="false" selection-start-line="76" selection-start-column="1" selection-end-line="83" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansible_small_examples/copy_dir_file/info.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ansible_small_examples/create_dir_file/site.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="33" column="16" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+        <state relative-caret-position="480">
+          <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansible_small_examples/copy_dir_file/site.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
           <folding />
         </state>
       </provider>
