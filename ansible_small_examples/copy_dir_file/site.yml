@@ -11,7 +11,7 @@
       mode: 0644
       force: yes
    - copy:
-       src: /Users/swapnil/ansible-code/ansible_small_examples/copy_dir_file/files/dir_1/dir_2
+       src: /Users/swapnil/ansible-code/ansible_small_examples/copy_dir_file/files/dir_1
        dest: /tmp
        owner: jenkins
        group: jenkins
