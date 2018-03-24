@@ -1,0 +1,27 @@
+---
+- hosts: host1
+  sudo: yes
+  remote_user: jenkins
+  tasks:
+   - copy:
+      src: /Users/swapnil/ansible-code/ansible_small_examples/copy_dir_file/files/info.txt
+      dest: /tmp
+      owner: jenkins
+      group: jenkins
+      mode: 0644
+      force: yes
+   - copy:
+       src: /Users/swapnil/ansible-code/ansible_small_examples/copy_dir_file/files/dir_1
+       dest: /tmp
+       owner: jenkins
+       group: jenkins
+       directory_mode: yes
+       #mode: 0755
+       #remote_src: yes
+   - file:
+      dest: /tmp/dir_1
+      owner: jenkins
+      group: jenkins
+      mode: 0755
+      recurse: yes
+
