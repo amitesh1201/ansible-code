@@ -4,9 +4,16 @@
   remote_user: jenkins
   tasks:
    - copy:
-      src: /Users/swapnil/ansible-code/ansible_small_examples/copy_dir_file/info.txt
+      src: /Users/swapnil/ansible-code/ansible_small_examples/copy_dir_file/files/info.txt
       dest: /tmp
       owner: jenkins
       group: jenkins
       mode: 0644
       force: yes
+    - copy:
+       src: /Users/swapnil/ansible-code/ansible_small_examples/copy_dir_file/files/dir_1/dir_2
+       dest: /tmp
+       owner: jenkins
+       group: jenkins
+       mode: 0755
+       force: no
