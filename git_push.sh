@@ -8,7 +8,7 @@ do
 			git_msg="$OPTARG"
 		;;
     	d)
-			$git_branch=$OPTARG
+			git_branch=$OPTARG
 		;;
    		?)
 			err_msg
