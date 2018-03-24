@@ -24,4 +24,4 @@
       validate: '/usr/sbin/apachectl -f %s -t'
    - service:
       name: httpd
-      state: restart
+      state: restarted
