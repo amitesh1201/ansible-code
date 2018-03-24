@@ -6,5 +6,22 @@
    - lineinfile:
       path: /etc/hosts
       line: '192.168.0.106 cooleexample.com'
-
-      # add entry end of file, fist of file and search and add or replace the contents
+   - replace:
+      path: /etc/hosts
+      regexp: '(\s+)v1\.cooleexample\.com(\s+.*)?$'
+      replace: '\1host1.cooleexample.com\2'
+      backup: yes
+   - replace:
+      path: /etc/hosts
+      regexp: '(\s+)v2\.cooleexample\.com(\s+.*)?$'
+      replace: '\1host2.cooleexample.com\2'
+      after: 'Start after line.*'
+      backup: yes
+   - replace:
+      path: /etc/httpd/conf/httpd.conf
+      regexp: '^(NameVirtualHost|Listen)\s+80\s*$'
+      replace: '\1 0.0.0.0:8080'
+      validate: '/usr/sbin/apachectl -f %s -t'
+   - service:
+      name: httpd
+      state: restarted
