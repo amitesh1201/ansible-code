@@ -6,3 +6,5 @@
    - lineinfile:
       path: /etc/hosts
       line: '192.168.0.106 cooleexample.com'
+
+      # add entry end of file, fist of file and search and add or replace the contents
