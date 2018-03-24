@@ -22,3 +22,6 @@
       regexp: '^(NameVirtualHost|Listen)\s+80\s*$'
       replace: '\1 0.0.0.0:8080'
       validate: '/usr/sbin/apachectl -f %s -t'
+   - service:
+      name: httpd
+      state: restart
