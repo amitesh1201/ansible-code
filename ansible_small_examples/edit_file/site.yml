@@ -6,5 +6,9 @@
    - lineinfile:
       path: /etc/hosts
       line: '192.168.0.106 cooleexample.com'
-
+   - replace:
+      path: /etc/hosts
+      regexp: '(\s+)v1\.cooleexample\.com(\s+.*)?$'
+      replace: '\host1\.cooleexample\.com\2'
+      backup: yes
       # add entry end of file, fist of file and search and add or replace the contents
