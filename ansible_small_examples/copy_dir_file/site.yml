@@ -22,7 +22,7 @@
       dest: /tmp/dir_1
       owner: jenkins
       group: jenkins
-      mode: 0775
+      mode: 0755
       recurse: yes
       force: yes
 
