@@ -1,6 +1,23 @@
 #!/bin/bash
 
+
+while getopts m:d: name
+do
+	case $name in
+		m)
+			git_msg="$OPTARG"
+		;;
+    	d)
+			$git_branch=$OPTARG
+		;;
+   		?)
+			err_msg
+			exit
+          	;;
+    esac
+done;
+
 git add /Users/swapnil/ansible-code
 cd /Users/swapnil/ansible-code
-git commit -m "$1"
-git push origin "$2"
+git commit -m "$git_msg"
+git push origin "$git_branch"
