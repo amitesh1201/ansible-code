@@ -31,7 +31,7 @@
       owner: jenkins
       group: jenkins
       mode:  0644
-      force: no
+      force: yes
    - debug:
       msg: "File created /etc/one/two/smaple.txt"
    - file:
