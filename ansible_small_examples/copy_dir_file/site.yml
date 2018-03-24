@@ -24,5 +24,4 @@
       group: jenkins
       mode: 0755
       recurse: yes
-      force: yes
 
