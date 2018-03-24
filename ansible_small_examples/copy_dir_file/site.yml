@@ -19,7 +19,7 @@
        #mode: 0755
        #remote_src: yes
    - file:
-      dest: /Users/swapnil/ansible-code/ansible_small_examples/copy_dir_file/files/dir_1
+      dest: /tmp/dir_1
       owner: jenkins
       group: jenkins
       mode: 0775
