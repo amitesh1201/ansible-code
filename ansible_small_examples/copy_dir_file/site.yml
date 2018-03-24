@@ -16,4 +16,5 @@
        owner: jenkins
        group: jenkins
        mode: 0755
-       force: no
+       remote_src: yes
+       directory_mode: yes
