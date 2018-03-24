@@ -12,7 +12,7 @@ do
 		;;
    		?)
 			err_msg
-			exit
+			exit 1
           	;;
     esac
 done;
