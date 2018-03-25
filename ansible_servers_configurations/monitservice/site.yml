@@ -4,7 +4,7 @@
   remote_user: jenkins
   tasks:
   - import_tasks: epel_release.yml
-     tags: [epel_release]
+    tags: [epel_release]
    - name: ensure monit latest package install.
      yum: name=monit state=latest
    - name: ensure monit service is running (and enable it at boot)
