@@ -5,4 +5,3 @@
   tasks:
    - name: Install epel repo
      yum: name=epel-release state=latest
-   - name: Display the output to check package is installed or not.
