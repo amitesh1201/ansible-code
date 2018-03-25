@@ -6,6 +6,3 @@
    - name: Install epel repo
      yum: name=epel-release state=latest
    - name: Display the output to check package is installed or not.
-     shell: yum repolist all | grep epel-release
-     args:
-      executable: /bin/bash
