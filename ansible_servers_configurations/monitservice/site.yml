@@ -8,4 +8,4 @@
    - name: ensure monit latest package install.
      yum: name=monit state=latest
    - name: ensure monit service is running (and enable it at boot)
-     systemd: name=monit state=start enabled=yes
+     systemd: name=monit state=started enabled=yes
