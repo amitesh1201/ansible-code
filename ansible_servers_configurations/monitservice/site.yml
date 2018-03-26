@@ -23,7 +23,7 @@
       group: root
       mode: 600
    - copy:
-      src: /Users/swapnil/ansible-code/ansible_servers_configurations/monitservice/files/monitd.conf
+      src: /Users/swapnil/ansible-code/ansible_servers_configurations/monitservice/files/monit.conf
       dest: /etc/monit.d
       owner: root
       group: root
