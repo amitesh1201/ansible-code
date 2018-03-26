@@ -1,9 +1,9 @@
 ---
 - hosts: host1
   sudo: yes
-  #remote_user: jenkins
+  remote_user: jenkins
   #become: true
-  become_user: jenkins
+  #become_user: jenkins
   #roles:
    # - epel-release
   tasks:
