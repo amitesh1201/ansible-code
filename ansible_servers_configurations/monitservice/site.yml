@@ -2,12 +2,13 @@
 - hosts: host1
   sudo: yes
   remote_user: jenkins
-  #roles:
-  # - epel-release
+  roles:
+   - epel-release
+         files: main.yml
   tasks:
-   - include_role:
-      name: epel-release
-      files: mail.yml
+   #- include_role:
+   #   name: epel-release
+    #  files: mail.yml
    - name: ensure monit latest package install.
      yum: name=monit state=latest
    - name: ensure monit service is running (and enable it at boot)
