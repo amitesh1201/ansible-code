@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e1455bf-897c-4c0f-bdd2-35f16d59a557" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible_servers_configurations/monitservice/epel-release.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible_servers_configurations/monitservice/files/monit.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible_servers_configurations/monitservice/files/monitrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible_servers_configurations/monitservice/hosts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible_servers_configurations/monitservice/roles/epel-release/main.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible_servers_configurations/monitservice/site.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ansible_servers_configurations/webservice/info.txt" afterPath="$PROJECT_DIR$/ansible_servers_configurations/webservice/files/info.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ansible_servers_configurations/webservice/hosts" afterPath="$PROJECT_DIR$/ansible_servers_configurations/webservice/hosts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ansible_servers_configurations/webservice/http.yml" afterPath="$PROJECT_DIR$/ansible_servers_configurations/webservice/http.yml" />
-    </list>
+    <list default="true" id="9e1455bf-897c-4c0f-bdd2-35f16d59a557" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
