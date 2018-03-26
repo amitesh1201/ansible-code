@@ -6,7 +6,7 @@
   # - epel-release
   tasks:
    - import_role:
-     name: epel-release
+      name: epel-release
    - name: ensure monit latest package install.
      yum: name=monit state=latest
    - name: ensure monit service is running (and enable it at boot)
