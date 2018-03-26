@@ -2,8 +2,10 @@
 - hosts: host1
   sudo: yes
   remote_user: jenkins
-  roles:
-   - epel-release
+  #roles:
+  # - epel-release
+  - import_role:
+     name: epel-release
   tasks:
    - name: ensure monit latest package install.
      yum: name=monit state=latest
