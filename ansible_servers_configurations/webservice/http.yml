@@ -43,7 +43,7 @@
   - debug:
       msg: "File created /var/www/coolexample.com/error.log"
   - copy:
-     src: /Users/swapnil/ansible-code/ansible_servers_configurations/webservice/scripts/info.txt
+     src: /Users/swapnil/ansible-code/ansible_servers_configurations/webservice/files/info.txt
      dest: /etc/httpd
      owner: apache
      group: apache
