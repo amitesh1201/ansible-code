@@ -43,7 +43,7 @@
   - debug:
       msg: "File created /var/www/coolexample.com/error.log"
   - copy:
-     src: /Users/swapnil/ansible-code/webservice/webservice/scripts/info.txt
+     src: /Users/swapnil/ansible-code/ansible_servers_configurations/webservice/scripts/info.txt
      dest: /etc/httpd
      owner: apache
      group: apache
@@ -51,7 +51,7 @@
   - debug:
       msg: "File copied /etc/httpd/info.txt"
   - copy:
-     src: /Users/swapnil/ansible-code/webservice/scripts/coolexample.com.conf
+     src: /Users/swapnil/ansible-code/ansible_servers_configurations/webservice/scripts/coolexample.com.conf
      dest: /etc/httpd/sites-available/
      owner: apache
      group: apache
@@ -59,7 +59,7 @@
   - debug:
       msg: "File copied /etc/httpd/sites-available/coolexample.com.conf"
   - copy:
-     src: /Users/swapnil/ansible-code/webservice/scripts/httpd.conf
+     src: /Users/swapnil/ansible-code/ansible_servers_configurations/webservice/scripts/httpd.conf
      dest: /etc/httpd/conf
      owner: apache
      group: apache
@@ -67,7 +67,7 @@
   - debug:
       msg: "File copied /etc/httpd/conf/httpd.conf"
   - copy:
-     src: /Users/swapnil/ansible-code/webservice/files/index.html
+     src: /Users/swapnil/ansible-code/ansible_servers_configurations/webservice/files/index.html
      dest: /var/www/coolexample.com/public_html
      owner: apache
      group: apache
