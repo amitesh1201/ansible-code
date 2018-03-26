@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e1455bf-897c-4c0f-bdd2-35f16d59a557" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ansible_servers_configurations/monitservice/site.yml" afterPath="$PROJECT_DIR$/ansible_servers_configurations/monitservice/site.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,7 +23,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="site.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="site.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/monitservice/site.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -36,18 +36,18 @@
       <file leaf-file-name="epel-release.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/monitservice/roles/epel-release.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="epel-release.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="epel-release.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/monitservice/epel-release.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -88,8 +88,9 @@
         <option value="$PROJECT_DIR$/git_push.sh" />
         <option value="$PROJECT_DIR$/ansible_small_examples/edit_file/site.yml" />
         <option value="$PROJECT_DIR$/ansible_servers_configurations/monitservice/hosts" />
-        <option value="$PROJECT_DIR$/ansible_servers_configurations/monitservice/epel-release.yml" />
         <option value="$PROJECT_DIR$/ansible_servers_configurations/monitservice/site.yml" />
+        <option value="$PROJECT_DIR$/ansible_servers_configurations/monitservice/roles/epel-release.yml" />
+        <option value="$PROJECT_DIR$/ansible_servers_configurations/monitservice/epel-release.yml" />
       </list>
     </option>
   </component>
@@ -132,6 +133,13 @@
               <item name="ansible-code" type="462c0819:PsiDirectoryNode" />
               <item name="ansible_servers_configurations" type="462c0819:PsiDirectoryNode" />
               <item name="monitservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ansible-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ansible-code" type="462c0819:PsiDirectoryNode" />
+              <item name="ansible_servers_configurations" type="462c0819:PsiDirectoryNode" />
+              <item name="monitservice" type="462c0819:PsiDirectoryNode" />
+              <item name="roles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -345,14 +353,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/monitservice/epel-release.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/webservice/http.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1155">
@@ -361,18 +361,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/monitservice/roles/epel-release.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/monitservice/site.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/monitservice/roles/epel-release.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/monitservice/epel-release.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
           <folding />
         </state>
       </provider>
