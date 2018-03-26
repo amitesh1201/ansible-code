@@ -1,0 +1,32 @@
+---
+- hosts: host1
+  #sudo: yes
+  remote_user: jenkins
+  become: true
+  #become_user: jenkins
+  #roles:
+   # - epel-release
+  tasks:
+   #- import_role:
+   #   name: epel-release
+   #  files: main.yml
+   - name: ensure install epel-release
+     yum: name=epel-release state=latest
+   - name: ensure monit latest package install.
+     yum: name=monit state=latest
+   - name: ensure monit service is running (and enable it at boot)
+     systemd: name=monit state=started enabled=yes
+   - copy:
+      src: /Users/swapnil/ansible-code/ansible_servers_configurations/monitservice/files/monitrc
+      dest: /etc/
+      owner: root
+      group: root
+      mode: 0600
+   - copy:
+      src: /Users/swapnil/ansible-code/ansible_servers_configurations/monitservice/files/monit.conf
+      dest: /etc/monit.d
+      owner: root
+      group: root
+      mode:  0644
+   - name: restart monit service
+     systemd: name=monit state=restarted

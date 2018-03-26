@@ -1,0 +1,7 @@
+---
+- hosts: host1
+  sudo: yes
+  remote_user: jenkins
+  tasks:
+   - name: ensure the epel install.
+     yum: name=epel-release state=latest
