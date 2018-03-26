@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e1455bf-897c-4c0f-bdd2-35f16d59a557" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="9e1455bf-897c-4c0f-bdd2-35f16d59a557" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="monit.conf" pinned="false" current-in-tab="true">
+      <file leaf-file-name="monit.conf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/monitservice/files/monit.conf">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+              <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -53,10 +51,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="http.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="http.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/webservice/http.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
+            <state relative-caret-position="504">
               <caret line="69" column="37" lean-forward="false" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="37" />
               <folding />
             </state>
@@ -135,7 +133,14 @@
               <item name="ansible-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="ansible-code" type="462c0819:PsiDirectoryNode" />
               <item name="ansible_servers_configurations" type="462c0819:PsiDirectoryNode" />
-              <item name="monitservice" type="462c0819:PsiDirectoryNode" />
+              <item name="webservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ansible-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ansible-code" type="462c0819:PsiDirectoryNode" />
+              <item name="ansible_servers_configurations" type="462c0819:PsiDirectoryNode" />
+              <item name="webservice" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -395,14 +400,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/webservice/http.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="69" column="37" lean-forward="false" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/monitservice/site.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -422,7 +419,15 @@
     <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/monitservice/files/monit.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/webservice/http.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="69" column="37" lean-forward="false" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="37" />
           <folding />
         </state>
       </provider>
