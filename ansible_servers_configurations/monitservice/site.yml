@@ -5,7 +5,7 @@
   #roles:
   # - epel-release
   tasks:
-   - import_role:
+   - include_role:
       name: epel-release
    - name: ensure monit latest package install.
      yum: name=monit state=latest
