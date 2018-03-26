@@ -16,3 +16,15 @@
      yum: name=monit state=latest
    - name: ensure monit service is running (and enable it at boot)
      systemd: name=monit state=started enabled=yes
+   - copy:
+     src: /ansible_servers_configurations/monitservice/files/monitrc
+     dest: /etc/
+     owner: root
+     group: root
+     mode: 600
+   - copy:
+     src: /ansible_servers_configurations/monitservice/files/monitd.conf
+     dest: /etc/monit.d
+     owner: root
+     group: root
+     mode:  644
