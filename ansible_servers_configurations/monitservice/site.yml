@@ -5,8 +5,7 @@
   become: true
   become_user: jenkins
   roles:
-   - epel-release
-       - main.yml
+    - main.yml
   tasks:
    #- import_role:
    #   name: epel-release
