@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e1455bf-897c-4c0f-bdd2-35f16d59a557" name="Default" comment="" />
+    <list default="true" id="9e1455bf-897c-4c0f-bdd2-35f16d59a557" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,11 +63,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="site.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="site.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ansible_small_examples/copy_dir_file/site.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" column="86" lean-forward="false" selection-start-line="6" selection-start-column="82" selection-end-line="6" selection-end-column="86" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hosts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ansible_small_examples/copy_dir_file/hosts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -100,7 +112,6 @@
         <option value="$PROJECT_DIR$/webservice/files/index.html" />
         <option value="$PROJECT_DIR$/ansible_small_examples/edit_file/hosts" />
         <option value="$PROJECT_DIR$/ansible_small_examples/create_dir_file/site.yml" />
-        <option value="$PROJECT_DIR$/ansible_small_examples/copy_dir_file/hosts" />
         <option value="$PROJECT_DIR$/ansible_small_examples/copy_dir_file/info.txt" />
         <option value="$PROJECT_DIR$/ansible_small_examples/copy_dir_file/site.yml" />
         <option value="$PROJECT_DIR$/git_push.sh" />
@@ -114,6 +125,7 @@
         <option value="$PROJECT_DIR$/ansible_servers_configurations/monitservice/files/monit.conf" />
         <option value="$PROJECT_DIR$/ansible_servers_configurations/webservice/hosts" />
         <option value="$PROJECT_DIR$/ansible_servers_configurations/webservice/http.yml" />
+        <option value="$PROJECT_DIR$/ansible_small_examples/copy_dir_file/hosts" />
       </list>
     </option>
   </component>
@@ -334,13 +346,6 @@
     <entry file="file://$PROJECT_DIR$/webservice/http.yml" />
     <entry file="file://$PROJECT_DIR$/test-code/site.yml" />
     <entry file="file://$PROJECT_DIR$/webservice/hosts" />
-    <entry file="file://$PROJECT_DIR$/ansible_small_examples/copy_dir_file/hosts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ansible_small_examples/create_dir_file/hosts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -450,6 +455,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="86" lean-forward="false" selection-start-line="6" selection-start-column="82" selection-end-line="6" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansible_small_examples/copy_dir_file/hosts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
           <folding />
         </state>
       </provider>
