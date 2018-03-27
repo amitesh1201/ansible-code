@@ -9,6 +9,7 @@
       owner: jenkins
       group: jenkins
       mode: 0644
+      backup: yes
       force: yes
    - copy:
        src: /Users/swapnil/ansible-code/ansible_small_examples/copy_dir_file/files/dir_1
