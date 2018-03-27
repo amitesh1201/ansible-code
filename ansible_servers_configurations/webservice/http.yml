@@ -1,10 +1,11 @@
 ---
 - hosts: host1
-  sudo: yes
+  #sudo: yes
   vars: 
     http_port: 80
     max_clients: 200
   remote_user: jenkins
+  become: true
   tasks:
   - name: ensure apache is at the latest version
     yum: name=httpd state=latest
