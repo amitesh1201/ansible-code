@@ -27,30 +27,30 @@
   owner: apache
   group: apache
   mode:  0755
-- name: copy  Users/swapnil/ansible-code/ansible_servers_configurations/webservice/files/info.txt
+- name: copy  /etc/httpd/info.txt
   copy:
-   src: /Users/swapnil/ansible-code/ansible_servers_configurations/webservice/files/info.txt
+   src: /Users/swapnil/ansible-code/ansible_servers_configurations/roles/httpd/files/info.txt
    dest: /etc/httpd
    owner: apache
    group: apache
    mode:  0755
-- name: copy /Users/swapnil/ansible-code/ansible_servers_configurations/webservice/scripts/coolexample.com.conf
+- name: copy /etc/httpd/sites-available/coolexample.com.conf
   copy:
-   src: /Users/swapnil/ansible-code/ansible_servers_configurations/webservice/scripts/coolexample.com.conf
+   src: /Users/swapnil/ansible-code/ansible_servers_configurations/roles/httpd/files/coolexample.com.conf
    dest: /etc/httpd/sites-available/
    owner: apache
    group: apache
    mode:  0755
-- name: copy /Users/swapnil/ansible-code/ansible_servers_configurations/webservice/scripts/httpd.conf
+- name: copy /etc/httpd/conf/httpd.conf
   copy:
-   src: /Users/swapnil/ansible-code/ansible_servers_configurations/webservice/scripts/httpd.conf
+   src: /Users/swapnil/ansible-code/ansible_servers_configurations/roles/httpd/files/httpd.conf
    dest: /etc/httpd/conf
    owner: apache
    group: apache
    mode:  0755
-- name: copy /Users/swapnil/ansible-code/ansible_servers_configurations/webservice/files/index.html
+- name: copy /var/www/coolexample.com/public_html/index.html
   copy:
-   src: /Users/swapnil/ansible-code/ansible_servers_configurations/webservice/files/index.html
+   src: /Users/swapnil/ansible-code/ansible_servers_configurations/roles/httpd/files/index.html
    dest: /var/www/coolexample.com/public_html
    owner: apache
    group: apache
