@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e1455bf-897c-4c0f-bdd2-35f16d59a557" name="Default" comment="" />
+    <list default="true" id="9e1455bf-897c-4c0f-bdd2-35f16d59a557" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/config.yml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,16 +26,16 @@
         <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/service.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="37" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="37" />
+              <caret line="2" column="49" lean-forward="true" selection-start-line="1" selection-end-line="2" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+            <state relative-caret-position="294">
+              <caret line="65" column="49" lean-forward="true" selection-start-line="65" selection-start-column="2" selection-end-line="65" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -70,7 +72,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="runsetup.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="runsetup.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/runsetup.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -130,8 +132,8 @@
         <option value="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/service.yml" />
         <option value="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/install.yml" />
         <option value="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/handlers/main.yml" />
-        <option value="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/config.yml" />
         <option value="$PROJECT_DIR$/ansible_servers_configurations/runsetup.yml" />
+        <option value="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/config.yml" />
       </list>
     </option>
   </component>
@@ -478,13 +480,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/service.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/files/coolexample.com.conf">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -499,13 +494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -527,6 +515,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/service.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="49" lean-forward="true" selection-start-line="1" selection-end-line="2" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="65" column="49" lean-forward="true" selection-start-line="65" selection-start-column="2" selection-end-line="65" selection-end-column="49" />
         </state>
       </provider>
     </entry>
