@@ -1,3 +1,8 @@
 ---
-- debug:
-   msg: "{{ var_msg }}"
+
+- hosts: host1
+  sudo: yes
+  remote_user: jenkins
+  tasks:
+   - debug:
+      msg: "{{ var_msg }}"
