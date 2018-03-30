@@ -1,4 +1,4 @@
 ---
 
 - name: ensure install latest version
-  yum: name=httpd, state=latest
+  yum: name=httpd  state=latest
