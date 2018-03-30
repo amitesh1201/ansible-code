@@ -22,11 +22,11 @@
    mode:  0755
 - name: create /var/www/coolexample.com/error.log
   file:
-  path: /var/www/coolexample.com/error.log
-  state: touch
-  owner: apache
-  group: apache
-  mode:  0755
+   path: /var/www/coolexample.com/error.log
+   state: touch
+   owner: apache
+   group: apache
+   mode:  0755
 - name: copy  /etc/httpd/info.txt
   copy:
    src: /Users/swapnil/ansible-code/ansible_servers_configurations/roles/httpd/files/info.txt
