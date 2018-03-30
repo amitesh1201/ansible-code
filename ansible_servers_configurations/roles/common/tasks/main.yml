@@ -1,0 +1,22 @@
+---
+
+- name: Install vim editor
+  yum: name=vim state=present
+  tags: vim
+
+- name: Install network tools
+  yum: name=net-tools state=present
+  tags: netstat
+
+- name: Install screen
+  yum: name=screen state=present
+  tags: screen
+
+- name: Install ntp
+  yum: name=ntp state=present
+  tags: ntp
+
+- name: Copy ntp file
+  template: src=ntp.conf dest=/etc/ntp.conf
+  tags: ntp
+  notify: restart ntp service
