@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e1455bf-897c-4c0f-bdd2-35f16d59a557" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9e1455bf-897c-4c0f-bdd2-35f16d59a557" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +15,7 @@
         <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/main.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="27" />
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -26,23 +24,25 @@
         <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/service.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="49" lean-forward="true" selection-start-line="1" selection-end-line="2" selection-end-column="49" />
+              <caret line="2" column="49" selection-start-line="1" selection-end-line="2" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+            <state relative-caret-position="342">
+              <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="coolexample.com.conf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/files/coolexample.com.conf">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="main.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/meta/main.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-547" />
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
@@ -194,6 +194,14 @@
               <item name="ansible_servers_configurations" type="462c0819:PsiDirectoryNode" />
               <item name="roles" type="462c0819:PsiDirectoryNode" />
               <item name="httpd" type="462c0819:PsiDirectoryNode" />
+              <item name="meta" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ansible-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ansible-code" type="462c0819:PsiDirectoryNode" />
+              <item name="ansible_servers_configurations" type="462c0819:PsiDirectoryNode" />
+              <item name="roles" type="462c0819:PsiDirectoryNode" />
+              <item name="httpd" type="462c0819:PsiDirectoryNode" />
               <item name="tasks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -270,16 +278,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16701902" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16701902" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5003524" side_tool="true" weight="0.48" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32889965" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32889965" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49964765" visible="true" weight="0.4751515" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49964765" visible="true" weight="0.4751515" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -293,23 +302,23 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27181688" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" weight="0.3297568" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32889965" />
-      <window_info anchor="right" id="Data View" order="3" weight="0.3297568" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32889965" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3688029" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32889965" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32889965" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="UnknownFeatures">
@@ -345,6 +354,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/httpd.conf" />
     <entry file="file://$PROJECT_DIR$/scripts/coolexample.com.conf" />
     <entry file="file://$PROJECT_DIR$/http.yml" />
@@ -393,9 +409,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/monitservice/roles/epel-release/epel-release.yml" />
-    <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/monitservice/roles/epel-release/main.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/monitservice/epel-release.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -476,12 +489,9 @@
     <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/main.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="27" />
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="27" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/files/coolexample.com.conf">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/files/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -521,15 +531,20 @@
     <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/service.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="49" lean-forward="true" selection-start-line="1" selection-end-line="2" selection-end-column="49" />
+          <caret line="2" column="49" selection-start-line="1" selection-end-line="2" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+        <state relative-caret-position="342">
+          <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/meta/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-547" />
       </provider>
     </entry>
   </component>
