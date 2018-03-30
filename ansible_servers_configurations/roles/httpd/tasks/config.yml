@@ -62,6 +62,6 @@
    owner: apache
    group: apache
    state: link
-- name: restart apache
+   notify: restart apache
 #- name: Start and enable httpd service
 #  systemd: name=httpd state=restarted enabled=yes
