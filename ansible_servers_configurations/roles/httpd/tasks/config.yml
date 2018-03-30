@@ -27,13 +27,6 @@
    owner: apache
    group: apache
    mode:  0755
-- name: create /etc/httpd/sites-available/coolexample.com.conf
-  file:
-   src: /etc/httpd/sites-available/coolexample.com.conf
-   dest: /etc/httpd/sites-enabled/coolexample.com.conf
-   owner: apache
-   group: apache
-   state: link
 - name: copy  /etc/httpd/info.txt
   copy:
    src: /Users/swapnil/ansible-code/ansible_servers_configurations/roles/httpd/files/info.txt
@@ -52,8 +45,15 @@
   template: src=coolexample.com.conf dest=/etc/httpd/sites-available/
 - name: Copy httpd.conf file
   template: src=httpd.conf dest=/etc/httpd/sites-available/
-  notify: restart apache
 
+- name: create /etc/httpd/sites-available/coolexample.com.conf
+  file:
+   src: /etc/httpd/sites-available/coolexample.com.conf
+   dest: /etc/httpd/sites-enabled/coolexample.com.conf
+   owner: apache
+   group: apache
+   state: link
+  notify: restart apache
 #- name: copy /etc/httpd/sites-available/coolexample.com.conf
 #  copy:
 #   src: /Users/swapnil/ansible-code/ansible_servers_configurations/roles/httpd/files/coolexample.com.conf
