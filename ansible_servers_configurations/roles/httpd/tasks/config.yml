@@ -1,0 +1,66 @@
+---
+- name: create /var/www/coolexample.com/public_html
+  file:
+   path: /var/www/coolexample.com/public_html
+   state: directory
+   owner: apache
+   group: apache
+   mode:  0755
+- name: create /etc/httpd/sites-available
+  file:
+   path: /etc/httpd/sites-available
+   state: directory
+   owner: apache
+   group: apache
+   mode:  0755
+- name: create /etc/httpd/sites-enabled
+  file:
+   path: /etc/httpd/sites-enabled
+   state: directory
+   owner: apache
+   group: apache
+   mode:  0755
+- name: create /var/www/coolexample.com/error.log
+  file:
+  path: /var/www/coolexample.com/error.log
+  state: touch
+  owner: apache
+  group: apache
+  mode:  0755
+- name: copy  Users/swapnil/ansible-code/ansible_servers_configurations/webservice/files/info.txt
+  copy:
+   src: /Users/swapnil/ansible-code/ansible_servers_configurations/webservice/files/info.txt
+   dest: /etc/httpd
+   owner: apache
+   group: apache
+   mode:  0755
+- name: copy /Users/swapnil/ansible-code/ansible_servers_configurations/webservice/scripts/coolexample.com.conf
+  copy:
+   src: /Users/swapnil/ansible-code/ansible_servers_configurations/webservice/scripts/coolexample.com.conf
+   dest: /etc/httpd/sites-available/
+   owner: apache
+   group: apache
+   mode:  0755
+- name: copy /Users/swapnil/ansible-code/ansible_servers_configurations/webservice/scripts/httpd.conf
+  copy:
+   src: /Users/swapnil/ansible-code/ansible_servers_configurations/webservice/scripts/httpd.conf
+   dest: /etc/httpd/conf
+   owner: apache
+   group: apache
+   mode:  0755
+- name: copy /Users/swapnil/ansible-code/ansible_servers_configurations/webservice/files/index.html
+  copy:
+   src: /Users/swapnil/ansible-code/ansible_servers_configurations/webservice/files/index.html
+   dest: /var/www/coolexample.com/public_html
+   owner: apache
+   group: apache
+   mode:  0755
+- name: create /etc/httpd/sites-available/coolexample.com.conf
+  file:
+   src: /etc/httpd/sites-available/coolexample.com.conf
+   dest: /etc/httpd/sites-enabled/coolexample.com.conf
+   owner: apache
+   group: apache
+   state: link
+   notify:
+    - restart apache
