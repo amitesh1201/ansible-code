@@ -41,20 +41,6 @@
    owner: apache
    group: apache
    mode:  0755
-- name: copy /etc/httpd/sites-available/coolexample.com.conf
-  copy:
-   src: /Users/swapnil/ansible-code/ansible_servers_configurations/roles/httpd/files/coolexample.com.conf
-   dest: /etc/httpd/sites-available/
-   owner: apache
-   group: apache
-   mode:  0755
-- name: copy /etc/httpd/conf/httpd.conf
-  copy:
-   src: /Users/swapnil/ansible-code/ansible_servers_configurations/roles/httpd/files/httpd.conf
-   dest: /etc/httpd/conf
-   owner: apache
-   group: apache
-   mode:  0755
 - name: copy /var/www/coolexample.com/public_html/index.html
   copy:
    src: /Users/swapnil/ansible-code/ansible_servers_configurations/roles/httpd/files/index.html
@@ -62,7 +48,27 @@
    owner: apache
    group: apache
    mode:  0755
-   notify: restart apache
+- name: Copy coolexample.com.conf file
+  template: src=coolexample.com.conf dest=/etc/httpd/sites-available/
+- name: Copy httpd.conf file
+  template: src=httpd.conf dest=/etc/httpd/sites-available/
+  notify: restart apache
+
+#- name: copy /etc/httpd/sites-available/coolexample.com.conf
+#  copy:
+#   src: /Users/swapnil/ansible-code/ansible_servers_configurations/roles/httpd/files/coolexample.com.conf
+ #  dest: /etc/httpd/sites-available/
+ #  owner: apache
+ #  group: apache
+ #  mode:  0755
+#- name: copy /etc/httpd/conf/httpd.conf
+#  copy:
+#   src: /Users/swapnil/ansible-code/ansible_servers_configurations/roles/httpd/files/httpd.conf
+ #  dest: /etc/httpd/conf
+ #  owner: apache
+  # group: apache
+  # mode:  0755
+  #
 
 #- name: Start and enable httpd service
 #  systemd: name=httpd state=restarted enabled=yes
