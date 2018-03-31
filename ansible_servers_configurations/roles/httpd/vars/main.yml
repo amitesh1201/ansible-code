@@ -2,3 +2,4 @@
 # vars file for ansible_servers_configurations/roles/httpd
 
 httpd_port: 80
+httpd_msg: This is ansible msg.

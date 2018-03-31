@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e1455bf-897c-4c0f-bdd2-35f16d59a557" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/templates/httpd.conf" beforeDir="false" afterPath="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/templates/httpd.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/vars/main.yml" afterDir="false" />
-    </list>
+    <list default="true" id="9e1455bf-897c-4c0f-bdd2-35f16d59a557" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,11 +38,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/vars/main.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hosts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/hosts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -56,6 +61,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>error.log</find>
+      <find>80</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -97,7 +103,6 @@
         <option value="$PROJECT_DIR$/ansible_servers_configurations/roles/common/handlers/main.yml" />
         <option value="$PROJECT_DIR$/ansible_servers_configurations/roles/common/tasks/main.yml" />
         <option value="$PROJECT_DIR$/ansible_servers_configurations/runsetup.yml" />
-        <option value="$PROJECT_DIR$/ansible_servers_configurations/hosts" />
         <option value="$PROJECT_DIR$/ansible_small_examples/variables/vars/main.yml" />
         <option value="$PROJECT_DIR$/ansible_small_examples/variables/hosts" />
         <option value="$PROJECT_DIR$/ansible_small_examples/variables/runsetup.yml" />
@@ -105,6 +110,7 @@
         <option value="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/config.yml" />
         <option value="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/templates/httpd.conf" />
         <option value="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/vars/main.yml" />
+        <option value="$PROJECT_DIR$/ansible_servers_configurations/hosts" />
       </list>
     </option>
   </component>
@@ -472,13 +478,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/hosts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ansible_small_examples/edit_file/hosts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -560,6 +559,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/hosts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
