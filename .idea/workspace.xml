@@ -33,21 +33,21 @@
         <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/templates/httpd.conf">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="188">
-              <caret line="41" column="20" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="20" />
+              <caret line="41" column="14" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/vars/main.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+            <state relative-caret-position="60">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hosts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hosts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/hosts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -108,9 +108,9 @@
         <option value="$PROJECT_DIR$/ansible_small_examples/variables/runsetup.yml" />
         <option value="$PROJECT_DIR$/ansible_small_examples/variables/tasks/main.yml" />
         <option value="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/config.yml" />
+        <option value="$PROJECT_DIR$/ansible_servers_configurations/hosts" />
         <option value="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/templates/httpd.conf" />
         <option value="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/vars/main.yml" />
-        <option value="$PROJECT_DIR$/ansible_servers_configurations/hosts" />
       </list>
     </option>
   </component>
@@ -548,24 +548,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/hosts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/templates/httpd.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
-          <caret line="41" column="20" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="20" />
+          <caret line="41" column="14" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/vars/main.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/hosts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="60">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
         </state>
       </provider>
     </entry>

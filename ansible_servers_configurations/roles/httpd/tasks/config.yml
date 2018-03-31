@@ -1,7 +1,7 @@
 ---
-- name: create /var/www/coolexample.com/public_html
+- name: create /var/www/{{ httpd_fqdn }}/public_html
   file:
-   path: /var/www/coolexample.com/public_html
+   path: /var/www/{{ httpd_fqdn }}/public_html
    state: directory
    owner: apache
    group: apache
@@ -20,9 +20,9 @@
    owner: apache
    group: apache
    mode:  0755
-- name: create /var/www/coolexample.com/error.log
+- name: create /var/www/{{ httpd_fqdn }}/error.log
   file:
-   path: /var/www/coolexample.com/error.log
+   path: /var/www/{{ httpd_fqdn }}/error.log
    state: touch
    owner: apache
    group: apache
@@ -34,23 +34,23 @@
    owner: apache
    group: apache
    mode:  0755
-- name: copy /var/www/coolexample.com/public_html/index.html
+- name: copy /var/www/{{ httpd_fqdn }}/public_html/index.html
   copy:
    src: /Users/swapnil/ansible-code/ansible_servers_configurations/roles/httpd/files/index.html
-   dest: /var/www/coolexample.com/public_html
+   dest: /var/www/{{ httpd_fqdn }}/public_html
    owner: apache
    group: apache
    mode:  0755
 
-- name: Copy coolexample.com.conf file
-  template: src=coolexample.com.conf dest=/etc/httpd/sites-available/
+- name: Copy {{ httpd_fqdn }}.conf file
+  template: src={{ httpd_fqdn }}.conf dest=/etc/httpd/sites-available/
 - name: Copy httpd.conf file
   template: src=httpd.conf dest=/etc/httpd/conf
 
-- name: create /etc/httpd/sites-available/coolexample.com.conf
+- name: create /etc/httpd/sites-available/{{ httpd_fqdn }}.conf
   file:
-   src: /etc/httpd/sites-available/coolexample.com.conf
-   dest: /etc/httpd/sites-enabled/coolexample.com.conf
+   src: /etc/httpd/sites-available/{{ httpd_fqdn }}.conf
+   dest: /etc/httpd/sites-enabled/{{ httpd_fqdn }}.conf
    owner: apache
    group: apache
    state: link
