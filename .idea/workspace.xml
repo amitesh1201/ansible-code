@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e1455bf-897c-4c0f-bdd2-35f16d59a557" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/templates/coolexample.com.conf" beforeDir="false" afterPath="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/templates/coolexample.com.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/vars/main.yml" afterDir="false" />
-    </list>
+    <list default="true" id="9e1455bf-897c-4c0f-bdd2-35f16d59a557" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,20 +11,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="52" column="50" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
+            <state relative-caret-position="510">
+              <caret line="53" column="14" lean-forward="true" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="coolexample.com.conf" pinned="false" current-in-tab="false">
+      <file leaf-file-name="coolexample.com.conf" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/templates/coolexample.com.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            <state relative-caret-position="15">
+              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -114,8 +110,8 @@
         <option value="$PROJECT_DIR$/ansible_servers_configurations/hosts" />
         <option value="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/templates/httpd.conf" />
         <option value="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/vars/main.yml" />
-        <option value="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/templates/coolexample.com.conf" />
         <option value="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/config.yml" />
+        <option value="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/templates/coolexample.com.conf" />
       </list>
     </option>
   </component>
@@ -560,17 +556,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/templates/coolexample.com.conf">
+    <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        <state relative-caret-position="510">
+          <caret line="53" column="14" lean-forward="true" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/config.yml">
+    <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/templates/coolexample.com.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="52" column="50" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
+        <state relative-caret-position="15">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
         </state>
       </provider>
     </entry>
