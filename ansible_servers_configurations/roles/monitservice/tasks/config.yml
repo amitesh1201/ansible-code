@@ -1,7 +1,7 @@
 ---
 
 - name: Copy monitrc
-  tempplate:
+  template:
    src: monitrc
    dest: /etc/
    owner: root
