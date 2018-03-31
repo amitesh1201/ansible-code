@@ -4,5 +4,7 @@
   sudo: yes
   remote_user: jenkins
   tasks:
+   - name: echo
+     command: echo "This is echo"
    - debug:
       msg: "{{ var_msg }}"

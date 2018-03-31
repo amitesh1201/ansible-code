@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e1455bf-897c-4c0f-bdd2-35f16d59a557" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9e1455bf-897c-4c0f-bdd2-35f16d59a557" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,13 +20,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="service.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="service.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/service.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hosts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ansible_small_examples/variables/tasks/hosts">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="hosts" pinned="false" current-in-tab="false">
@@ -175,6 +178,12 @@
               <item name="ansible-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="ansible-code" type="462c0819:PsiDirectoryNode" />
               <item name="ansible_small_examples" type="462c0819:PsiDirectoryNode" />
+              <item name="edit_file" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ansible-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ansible-code" type="462c0819:PsiDirectoryNode" />
+              <item name="ansible_small_examples" type="462c0819:PsiDirectoryNode" />
               <item name="variables" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -183,6 +192,13 @@
               <item name="ansible_small_examples" type="462c0819:PsiDirectoryNode" />
               <item name="variables" type="462c0819:PsiDirectoryNode" />
               <item name="tasks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ansible-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ansible-code" type="462c0819:PsiDirectoryNode" />
+              <item name="ansible_small_examples" type="462c0819:PsiDirectoryNode" />
+              <item name="variables" type="462c0819:PsiDirectoryNode" />
+              <item name="vars" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -208,6 +224,7 @@
       <recent name="$PROJECT_DIR$/ansible_small_examples/copy_dir_file/files" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ansible_small_examples/variables/tasks" />
       <recent name="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/templates" />
       <recent name="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/files" />
       <recent name="$PROJECT_DIR$/ansible_servers_configurations/monitservice/roles" />
@@ -243,12 +260,12 @@
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16701902" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5003524" side_tool="true" weight="0.48" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010571" side_tool="true" weight="0.4109091" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32889965" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32889965" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24964234" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49964765" visible="true" weight="0.4109091" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4989429" visible="true" weight="0.4109091" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -324,7 +341,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webservice/files/index.html" />
     <entry file="file://$PROJECT_DIR$/webservice/http.yml" />
     <entry file="file://$PROJECT_DIR$/hosts" />
     <entry file="file://$PROJECT_DIR$/files/index.html" />
@@ -560,6 +576,9 @@
           <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansible_small_examples/variables/tasks/hosts">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
