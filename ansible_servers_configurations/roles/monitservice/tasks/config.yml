@@ -1,15 +1,17 @@
 ---
 
-- copy:
+- name: Copy monitrc
+  copy:
    src: monitrc
    dest: /etc/
    owner: root
    group: root
    mode: 0600
-- copy:
+- name: Copy monit.conf
+  copy:
    src: monit.conf
    dest: /etc/monit.d
    owner: root
    group: root
    mode:  0644
-- name: restart monit service
+  notify: restart monit service
