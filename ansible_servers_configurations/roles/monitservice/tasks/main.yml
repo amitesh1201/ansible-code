@@ -1,0 +1,5 @@
+---
+# tasks file for monitservice
+
+- name: ensure the epel install.
+  yum: name=epel-release state=latest
