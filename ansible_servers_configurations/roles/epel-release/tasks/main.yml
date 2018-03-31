@@ -1,0 +1,4 @@
+---
+# tasks file for epel-release
+- name: ensure the epel install.
+  yum: name=epel-release state=latest

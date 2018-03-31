@@ -1,0 +1,4 @@
+---
+
+- name: Start and enable httpd service
+  systemd: name=monit state=restarted enabled=yes

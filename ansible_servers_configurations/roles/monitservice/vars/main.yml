@@ -1,0 +1,8 @@
+---
+# vars file for monitservice
+
+monit_port: 2812
+local_add: 127.0.0.1
+global_add: 0.0.0.0
+monit_user: admin
+monit_password: monit
