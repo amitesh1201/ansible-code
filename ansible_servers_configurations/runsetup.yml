@@ -7,6 +7,6 @@
     max_clients: 200
   remote_user: jenkins
   roles:
-   - epel-release
-  # - common
-  # - httpd
+   - common
+   - httpd
+   - monitservice

@@ -1,5 +1,6 @@
 ---
 # tasks file for monitservice
 
-- name: ensure the epel install.
-  yum: name=epel-release state=latest
+- import_tasks: install.yml
+- import_tasks: config.yml
+- import_tasks: service.yml

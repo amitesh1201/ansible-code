@@ -1,0 +1,15 @@
+---
+
+- copy:
+   src: monitrc
+   dest: /etc/
+   owner: root
+   group: root
+   mode: 0600
+- copy:
+   src: monit.conf
+   dest: /etc/monit.d
+   owner: root
+   group: root
+   mode:  0644
+- name: restart monit service

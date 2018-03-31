@@ -1,2 +1,5 @@
 ---
 # handlers file for monitservice
+
+- name: restart monit service
+  systemd: name=monit state=restarted

@@ -1,0 +1,4 @@
+---
+
+- name: ensure install latest version
+  yum: name=monit  state=latest
