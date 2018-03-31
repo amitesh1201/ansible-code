@@ -1,12 +1,16 @@
 ---
 
 - name: Copy monitrc
-  tempplate: src=monitrc dest=/etc/
+  tempplate:
+   src: monitrc
+   dest: /etc/
    owner: root
    group: root
    mode: 0600
 - name: Copy monit.conf
-  template: src=monit.conf dest=/etc/monit.d
+  template:
+   src: monit.conf
+   dest: /etc/monit.d
    owner: root
    group: root
    mode:  0644

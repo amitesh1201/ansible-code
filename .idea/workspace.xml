@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e1455bf-897c-4c0f-bdd2-35f16d59a557" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ansible_servers_configurations/roles/monitservice/tasks/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible_servers_configurations/roles/monitservice/tasks/install.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible_servers_configurations/roles/monitservice/tasks/service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible_servers_configurations/roles/monitservice/templates/monit.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible_servers_configurations/roles/monitservice/templates/monitrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_servers_configurations/roles/monitservice/handlers/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible_servers_configurations/roles/monitservice/handlers/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_servers_configurations/roles/monitservice/meta/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible_servers_configurations/roles/monitservice/meta/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_servers_configurations/roles/monitservice/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible_servers_configurations/roles/monitservice/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_servers_configurations/roles/monitservice/vars/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible_servers_configurations/roles/monitservice/vars/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_servers_configurations/runsetup.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible_servers_configurations/runsetup.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible_servers_configurations/roles/monitservice/tasks/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible_servers_configurations/roles/monitservice/tasks/config.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,8 +25,17 @@
       <file leaf-file-name="config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/monitservice/tasks/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="29" />
+            <state relative-caret-position="45">
+              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="655">
+              <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -83,15 +81,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="runsetup.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/runsetup.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -170,7 +159,6 @@
         <option value="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/templates/coolexample.com.conf" />
         <option value="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/config.yml" />
         <option value="$PROJECT_DIR$/ansible_servers_configurations/roles/epel-release/tasks/main.yml" />
-        <option value="$PROJECT_DIR$/ansible_servers_configurations/roles/monitservice/tasks/config.yml" />
         <option value="$PROJECT_DIR$/ansible_servers_configurations/roles/monitservice/tasks/service.yml" />
         <option value="$PROJECT_DIR$/ansible_servers_configurations/roles/monitservice/tasks/main.yml" />
         <option value="$PROJECT_DIR$/ansible_servers_configurations/roles/monitservice/handlers/main.yml" />
@@ -181,6 +169,7 @@
         <option value="$PROJECT_DIR$/ansible_servers_configurations/roles/monitservice/meta/main.yml" />
         <option value="$PROJECT_DIR$/ansible_servers_configurations/roles/monitservice/tasks/install.yml" />
         <option value="$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/service.yml" />
+        <option value="$PROJECT_DIR$/ansible_servers_configurations/roles/monitservice/tasks/config.yml" />
       </list>
     </option>
   </component>
@@ -239,6 +228,29 @@
               <item name="ansible-code" type="462c0819:PsiDirectoryNode" />
               <item name="ansible_servers_configurations" type="462c0819:PsiDirectoryNode" />
               <item name="roles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ansible-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ansible-code" type="462c0819:PsiDirectoryNode" />
+              <item name="ansible_servers_configurations" type="462c0819:PsiDirectoryNode" />
+              <item name="roles" type="462c0819:PsiDirectoryNode" />
+              <item name="httpd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ansible-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ansible-code" type="462c0819:PsiDirectoryNode" />
+              <item name="ansible_servers_configurations" type="462c0819:PsiDirectoryNode" />
+              <item name="roles" type="462c0819:PsiDirectoryNode" />
+              <item name="httpd" type="462c0819:PsiDirectoryNode" />
+              <item name="handlers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ansible-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ansible-code" type="462c0819:PsiDirectoryNode" />
+              <item name="ansible_servers_configurations" type="462c0819:PsiDirectoryNode" />
+              <item name="roles" type="462c0819:PsiDirectoryNode" />
+              <item name="httpd" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ansible-code" type="b2602c69:ProjectViewProjectNode" />
@@ -629,13 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/monitservice/site.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -734,10 +739,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/httpd/tasks/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="54" column="16" lean-forward="true" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ansible_servers_configurations/roles/monitservice/tasks/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="29" />
+        <state relative-caret-position="45">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
         </state>
       </provider>
     </entry>
