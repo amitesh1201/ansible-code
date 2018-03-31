@@ -41,6 +41,7 @@
    owner: apache
    group: apache
    mode:  0755
+
 - name: Copy coolexample.com.conf file
   template: src=coolexample.com.conf dest=/etc/httpd/sites-available/
 - name: Copy httpd.conf file
