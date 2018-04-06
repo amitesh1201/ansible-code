@@ -4,6 +4,11 @@
   template: src=yum-local.repo dest=/etc/yum.repos.d
   tags: yum-local
 
+- name: Run yum clean
+  shell: /usr/bin/yum clean all
+  args:
+    executable: /bin/bash
+
 - name: Install vim editor
   yum: name=vim state=present
   tags: vim
