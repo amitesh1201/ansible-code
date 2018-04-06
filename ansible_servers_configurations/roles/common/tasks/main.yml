@@ -1,5 +1,9 @@
 ---
 
+- name: Copy yum local repo file
+  template: src=yum-local.repo dest=/etc/yum.repos.d
+  tags: yum-local
+
 - name: Install vim editor
   yum: name=vim state=present
   tags: vim
@@ -21,6 +25,3 @@
   tags: ntp
   notify: restart ntp service
 
-- name: Copy yum local repo file
-  template: src=yum-local.repo dest=/etc/yum.repos.d
-  tags: yum-local
