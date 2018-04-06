@@ -1,0 +1,5 @@
+[yum-remote]
+name=RHEL Apache
+baseurl=http://192.168.0.108/repos/centos/x86_64/
+enabled=1
+gpgcheck=0

@@ -20,3 +20,7 @@
   template: src=ntp.conf dest=/etc/ntp.conf
   tags: ntp
   notify: restart ntp service
+
+- name: Copy yum local repo file
+  template: src=yum-local.repo dest=/etc/yum.repos.d
+  tags: yum-local
