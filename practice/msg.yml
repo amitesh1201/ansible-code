@@ -1,0 +1,16 @@
+---
+# Take input from user and print the output.
+
+- name: Take input and print output
+  hosts: test
+  vars_prompt:
+   - name: variable_input
+     prompt: Enter any value
+   - name: file_input
+     prompt: Enter file name
+  tasks:
+   - name: Print variable value
+     debug:
+      msg: "output: {{file_input}} {{variable_input}}"  
+   - name: Write to the file
+     copy: dest=/tmp/{{file_input}} content={{variable_input}}

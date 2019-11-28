@@ -1,0 +1,8 @@
+---
+# Variable input
+
+- hosts: test
+  vars:
+   contents: "This is sample text."
+  tasks:
+   - copy: dest=/tmp/file.txt content="{{contents}}"

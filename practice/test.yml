@@ -1,0 +1,7 @@
+---
+# This is the test copy from source to dest
+
+- hosts: test
+  tasks:
+   - command: touch /tmp/test.txt
+   - copy: src=/home/swapnil/file.txt dest=/tmp 
