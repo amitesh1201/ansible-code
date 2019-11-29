@@ -1,0 +1,10 @@
+# delegate_to module is execute the task only provided hosts.
+# ansible-playbook delegate_to_module.yml
+
+---
+ - name: delegate_to module
+   hosts: test
+   tasks:
+    - name: delegate_to module is execute the task only provided hosts
+      command: touch /tmp/file1.txt
+      delegate_to: localhost
