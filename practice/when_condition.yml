@@ -1,0 +1,12 @@
+# This is when condition base example true or false
+# ansible-playbook when_condition.yml
+
+---
+ - name: When condition
+   hosts: localhost
+   tasks:
+    - name: Write to the file
+      copy:
+        dest: /tmp/file.txt
+        content: "Condition based example"
+      when: true
