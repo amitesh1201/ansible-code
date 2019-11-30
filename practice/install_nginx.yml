@@ -1,0 +1,25 @@
+# Install nginx and start the service
+# ansible-playbook install_nginx.yml
+---
+ - name: Install nginx and start service
+   hosts: test
+   tasks:
+    - name: Install ngnix yum module
+      yum:
+       name: nginx
+       state: present
+      become: yes
+      register: status_nginx
+    - name: Debug module  
+      debug:
+       msg: "{{status_nginx}}"
+    - name: Start nginx service module
+      service:
+       name: nginx
+       enabled: yes
+       state: restarted   
+      become: yes
+      register: nginx_state
+    - name: Debug module  
+      debug:
+       msg: "{{nginx_state}}" 
