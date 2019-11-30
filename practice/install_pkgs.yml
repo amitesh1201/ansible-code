@@ -1,0 +1,23 @@
+# Install vim and wget
+# ansible-playbook install_pkgs.yml
+
+---
+ - name: Install vim and wget
+   hosts: test
+   tasks:
+    - name: Install vim       
+      yum:
+       name: vim
+       state: present
+      register: status_vim
+      become: yes  
+    - debug:
+       msg: "{{status_vim}}"
+    - name: Install wget
+      yum:
+       name: wget
+       state: present
+      register: status_wget
+      become: yes    
+    - debug:
+       msg: "{{status_wget}}"
